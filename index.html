@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实名举报：郜崃岚、毛建军黑社会性质犯罪组织</title>
+    <meta name="description" content="实名举报郜崃岚、毛建军为首的黑社会性质犯罪组织非法占用农田、非法采矿等违法犯罪行为">
+    <meta name="keywords" content="举报,郜崃岚,毛建军,黑社会,非法占地,非法采矿,汝州">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="实名举报：郜崃岚、毛建军黑社会性质犯罪组织">
+    <meta property="og:description" content="多名村民实名举报郜崃岚、毛建军为首的黑社会性质犯罪组织">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/12cc14c7056370d710b8db1b520c49de.jpg">
+    
+    <style>
+        :root {
+            --primary-color: #dc2626;
+            --secondary-color: #991b1b;
+            --accent-color: #fbbf24;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f9fafb;
+            --border-color: #e5e7eb;
+            --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        [data-theme="dark"] {
+            --text-primary: #f9fafb;
+            --text-secondary: #d1d5db;
+            --bg-primary: #111827;
+            --bg-secondary: #1f2937;
+            --border-color: #374151;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,0.1) 10px,
+                rgba(255,255,255,0.1) 20px
+            );
+            opacity: 0.3;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .header h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 900;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header .subtitle {
+            font-size: clamp(1.1rem, 3vw, 1.5rem);
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+
+        /* Controls */
+        .controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .control-btn {
+            background: var(--bg-primary);
+            border: 2px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .control-btn:hover {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        /* Alert Banner */
+        .alert-banner {
+            background: linear-gradient(45deg, #fef3c7, #fbbf24);
+            border: 3px solid var(--accent-color);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.3rem;
+            color: #92400e;
+            box-shadow: var(--shadow-lg);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        /* Wanted Section */
+        .wanted-section {
+            background: var(--bg-secondary);
+            padding: 4rem 0;
+            margin: 2rem 0;
+        }
+
+        .wanted-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .wanted-card {
+            background: var(--bg-primary);
+            border: 4px solid var(--primary-color);
+            border-radius: 20px;
+            padding: 2.5rem;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            overflow: hidden;
+            transform: rotate(-1deg);
+            transition: transform 0.3s ease;
+        }
+
+        .wanted-card:nth-child(even) {
+            transform: rotate(1deg);
+        }
+
+        .wanted-card:hover {
+            transform: rotate(0deg) scale(1.02);
+        }
+
+        .wanted-avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6b7280, #374151);
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: white;
+            border: 6px solid var(--primary-color);
+            font-weight: bold;
+        }
+
+        .wanted-name {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .wanted-alias {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .wanted-crimes {
+            text-align: left;
+            background: #fef2f2;
+            padding: 1.5rem;
+            border-radius: 12px;
+            border-left: 6px solid var(--primary-color);
+        }
+
+        [data-theme="dark"] .wanted-crimes {
+            background: #1f2937;
+        }
+
+        .wanted-crimes h4 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .wanted-crimes ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .wanted-crimes li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border-color);
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .wanted-crimes li::before {
+            content: '⚡';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+
+        /* Timeline */
+        .timeline-section {
+            padding: 4rem 0;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 6px;
+            background: var(--primary-color);
+            transform: translateX(-50%);
+            border-radius: 3px;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin: 3rem 0;
+            padding: 0 2rem;
+        }
+
+        .timeline-item:nth-child(odd) {
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) {
+            text-align: left;
+        }
+
+        .timeline-content {
+            background: var(--bg-primary);
+            border: 3px solid var(--border-color);
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            max-width: 400px;
+            transition: transform 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-5px);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-left: auto;
+        }
+
+        .timeline-date {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            top: 2rem;
+            width: 25px;
+            height: 25px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            transform: translateX(-50%);
+            border: 6px solid var(--bg-primary);
+            box-shadow: 0 0 0 3px var(--primary-color);
+        }
+
+        /* Evidence Section */
+        .evidence-section {
+            background: var(--bg-secondary);
+            padding: 4rem 0;
+            margin: 2rem 0;
+        }
+
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .evidence-item {
+            background: var(--bg-primary);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            transition: transform 0.3s ease;
+            border: 2px solid var(--border-color);
+        }
+
+        .evidence-item:hover {
+            transform: translateY(-8px);
+        }
+
+        .evidence-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .evidence-image:hover {
+            transform: scale(1.05);
+        }
+
+        .evidence-video {
+            width: 100%;
+            height: 220px;
+        }
+
+        .evidence-caption {
+            padding: 1.5rem;
+            font-size: 1rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+            position: relative;
+        }
+
+        .modal img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            background: var(--primary-color);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Sections */
+        .section {
+            padding: 4rem 0;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-color);
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .section-content {
+            background: var(--bg-primary);
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow-lg);
+            margin-bottom: 2rem;
+            border: 2px solid var(--border-color);
+        }
+
+        .complainants-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .complainant-card {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .complainant-card h4 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Crime Details */
+        .crime-details {
+            background: var(--bg-primary);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            border-left: 6px solid var(--primary-color);
+        }
+
+        .crime-details h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .crime-details p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .crime-details ol {
+            padding-left: 2rem;
+        }
+
+        .crime-details li {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .cta-btn {
+            background: white;
+            color: var(--primary-color);
+            border: none;
+            padding: 1.2rem 2.5rem;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .cta-btn.secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .cta-btn.secondary:hover {
+            background: white;
+            color: var(--primary-color);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text-primary);
+            color: var(--bg-primary);
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 30px;
+            }
+            
+            .timeline-item {
+                text-align: left;
+                padding-left: 4rem;
+            }
+            
+            .timeline-content {
+                max-width: none;
+            }
+            
+            .timeline-dot {
+                left: 30px;
+            }
+            
+            .controls {
+                position: relative;
+                top: auto;
+                right: auto;
+                justify-content: center;
+                margin: 1rem 0;
+            }
+
+            .wanted-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* Utility Classes */
+        .text-center { text-align: center; }
+        .text-red { color: var(--primary-color); }
+        .font-bold { font-weight: bold; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mt-4 { margin-top: 1rem; }
+
+        /* Print Styles */
+        @media print {
+            .controls, .modal { display: none !important; }
+            .header { background: #dc2626 !important; }
+            body { font-size: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Controls -->
+    <div class="controls">
+        <select id="languageSelect" class="control-btn">
+            <option value="zh-CN">简体中文</option>
+            <option value="zh-TW">繁體中文</option>
+            <option value="en">English</option>
+        </select>
+        <button id="themeToggle" class="control-btn">🌙</button>
+        <button onclick="window.print()" class="control-btn">🖨️</button>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 data-lang="title">实名举报：郜崃岚、毛建军黑社会性质犯罪组织</h1>
+                <p class="subtitle" data-lang="subtitle">多名村民联合实名举报 • 铁证如山 • 绳之以法</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Alert Banner -->
+    <div class="container">
+        <div class="alert-banner" data-lang="alert">
+            🚨 紧急举报：郜崃岚、毛建军为首的黑社会性质犯罪组织非法占用近百亩耕地，实施暴力犯罪，严重危害社会！
+        </div>
+    </div>
+
+    <!-- Letter to Ministry -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang="ministry-title">致自然资源部的举报信</h2>
+            <div class="section-content">
+                <h3 style="color: var(--primary-color); margin-bottom: 1rem;">尊敬的自然资源部领导：</h3>
+                <p style="margin-bottom: 1rem; line-height: 1.8;">我们是汝州市村民，长期遭受郜崃岚、毛建军黑社会性质团伙的残酷迫害！多次申诉无果，让他们得以持续作恶，逍遥法外！</p>
+                <p style="margin-bottom: 1rem; line-height: 1.8;">自2008年起，他们以汝州中鑫金华矿业公司为幌子，组建"护矿队"，在原公安厅长秦玉海等保护伞的包庇下，肆意践踏法律尊严。50余起涉黑控告案件，因保护伞干预而未彻查，当地政法系统秩序严重失序！</p>
+                <p style="margin-bottom: 1rem; line-height: 1.8;">他们目无法纪，非法盗取价值数亿元矿产资源；强行占用焦村镇近百亩耕地，致使土地永久毁坏；更对村民实施暴力，何广军被持械围殴致骨折，茶亭村群众武延辉、段改红等人遭200余人持刀棍袭击，吴焕如、黄涛被殴打，白中会老母被赶出家门，其本人被威胁致半身不遂………桩桩恶行，罄竹难书！</p>
+                <p style="color: var(--primary-color); font-weight: bold; font-size: 1.2rem;">恳请自然资源部领导彻查郜崃岚、毛建军团伙，霸占耕地，盗取国家资源，打掉其保护伞，还汝州百姓安宁！</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Suspects -->
+    <section class="wanted-section">
+        <div class="container">
+            <h2 class="section-title" data-lang="suspects-title">主要犯罪嫌疑人</h2>
+            <div class="wanted-grid">
+                <div class="wanted-card">
+                    <div class="wanted-avatar">郜</div>
+                    <div class="wanted-name">郜崃岚</div>
+                    <div class="wanted-alias" data-lang="gao-alias">又名：郜小强 | 住址：焦作市山阳区</div>
+                    <div class="wanted-alias">汝州中鑫金华矿业有限公司实际控制人</div>
+                    <div class="wanted-alias">统一社会信用代码：91410482750711418B</div>
+                    <div class="wanted-crimes">
+                        <h4 data-lang="crimes-title">主要罪行：</h4>
+                        <ul>
+                            <li data-lang="crime-1">非法占用农用地罪</li>
+                            <li data-lang="crime-2">非法采矿罪</li>
+                            <li data-lang="crime-3">组织黑社会性质组织罪</li>
+                            <li data-lang="crime-4">故意伤害罪</li>
+                            <li data-lang="crime-5">寻衅滋事罪</li>
+                            <li data-lang="crime-7">非法侵入住宅罪</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wanted-card">
+                    <div class="wanted-avatar">毛</div>
+                    <div class="wanted-name">毛建军</div>
+                    <div class="wanted-alias" data-lang="mao-alias">汝州中鑫金华矿业有限公司法定代表人</div>
+                    <div class="wanted-crimes">
+                        <h4 data-lang="crimes-title">主要罪行：</h4>
+                        <ul>
+                            <li data-lang="crime-1">非法占用农用地罪</li>
+                            <li data-lang="crime-2">非法采矿罪</li>
+                            <li data-lang="crime-3">组织黑社会性质组织罪</li>
+                            <li data-lang="crime-4">故意伤害罪</li>
+                            <li data-lang="crime-6">故意毁坏财物罪</li>
+                            <li data-lang="crime-5">寻衅滋事罪</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crime Details -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">详细犯罪事实</h2>
+            
+            <div class="crime-details">
+                <h3>一、非法占用农用地罪</h3>
+                <p>2008年至2015年期间，以郜崃岚、毛建军为首的黑社会性质犯罪组织为开挖矿石，共计强行占用汝州市焦村镇安沟村煤窑湾村和安沟村茶亭村农用地共100余亩，其中占用基本农田77.5亩，占用其他耕地20余亩，严重违反土地管理法规，改变被占用土地用途，数量较大，造成农用地大量毁坏。</p>
+                <p>被强行占用的耕地，至今仍留有大坑，土地遭到严重破坏，致使这些耕地长期无法正常使用，严重损害了土地资源的可持续利用和农业生产的正常进行，给国家和集体的土地资源造成了难以挽回的损失。被控告人的行为已触犯《刑法》第三百四十二条的规定，其行为已构成非法占用农用地罪，应依法追究其刑事责任。</p>
+            </div>
+
+            <div class="crime-details">
+                <h3>二、非法采矿罪</h3>
+                <p>以郜崃岚、毛建军为首的黑社会性质犯罪组织自2008年起，在汝州市横行霸道，实施非法采矿活动。郜崃岚、毛建军在仅有探矿证、未取得采矿许可证的情况下，擅自开挖铝矿石80万吨，价值达4亿元。</p>
+                <p>同时，郜崃岚、毛建军将不属于金华公司矿带的国家矿产资源占为己有，对外宣称只要交付50-100万元押金，就可以在其指定区域进行非法开采，相关承诺和收取押金的行为均有证据可查。其非法开采矿产资源的行为，严重侵害了国家对矿产资源的所有权和管理制度，造成了矿产资源的大量流失。其行为违反《中华人民共和国矿产资源法》第三条"开采矿产资源必须依法申请取得采矿权"的规定，构成《中华人民共和国刑法》第三百四十三条规定的非法采矿罪。</p>
+            </div>
+
+            <div class="crime-details">
+                <h3>三、寻衅滋事罪、故意伤害罪</h3>
+                <p>以郜崃岚、毛建军为首的黑社会性质犯罪组织多次实施寻衅滋事、故意伤害他人，造成多人轻伤及轻微伤。具体犯罪事实如下：</p>
+                <ol>
+                    <li><strong>2012年3月</strong>：控告人何广军与几名同事在蟒川镇铁志生态园进行植树造林、浇水作业时，郜崃岚带领20名左右人员手持棍棒，不分青红皂白地对何广军等人进行殴打。此次殴打行为导致何广军手部骨折，构成轻伤，其他几名同事均受轻微伤，几人住院治疗。目前，何广军因伤势仍然无法从事重体力劳动，对其身体和生活造成了长期的不良影响。</li>
+                    
+                    <li><strong>2012年11月19日</strong>：郜崃岚、毛建军为首的黑社会性质犯罪组织为实现非法目的，组织二百多人手持刀具、棍棒，在焦村镇茶亭村对控告人等实施殴打。此次行为导致武延辉、段改红、武各子等多人轻伤，焦荣、武彦利、武大记等多人住院治疗。控告人报警后，因被控告人存在后台势力，虽短暂抓获几人，但当日便将其释放。此后，被控告人更是打电话威胁，称其省里有人，要打死控告人，致使控告人因恐惧住院并前往平顶山躲避。事后控告人多次前往派出所及公安局寻求处理，派出所却迫使控告人签字并给予80万"补偿"，控告人不同意并坚持要求追究打人者责任，最终此事竟不了了之。</li>
+                    
+                    <li><strong>2013年10月</strong>：郜崃岚、毛建军为首的黑社会性质犯罪组织为实现非法采矿目的，在未与控告人武焕如协商且未取得任何合法审批手续的情况下，指使20余名护矿队人员，强行进入武焕如位于汝州市焦村镇安沟村的耕地，使用挖掘机等设备进行强挖。武焕如发现后前往阻止，被控告人竟指使护矿队人员手持棍棒、刀具对武焕如及一同前来阻止的两名朋友进行殴打，后又于当晚带领五名以上人员手持棍棒、石头前往武焕如家中砸门、砸窗，随后强行进院殴打武焕如。上述行为导致武焕如的朋友黄涛耳膜穿孔，经鉴定构成轻伤，武焕如本人多处受伤，经鉴定为轻微伤。武焕如报警后，警方抓获了其中一名涉案人员，两个月后派出所组织调解、武焕如受到压力，无奈签署和解协议。最终，武焕如与黄涛分别获得7万元赔偿，此和解并非武焕如自愿。</li>
+                    
+                    <li><strong>2014年12月</strong>：郜崃岚、毛建军为首的黑社会性质犯罪组织在未履行任何法定程序的情况下，组织15名护矿队人员持棍棒、驾驶挖掘机，翻墙强行闯入白中会位于焦村镇安沟村的住宅，将其80多岁的老母亲强行抬至院外，在未作任何财物清点的情况下，使用机械强行拆除房屋并砸毁室内家具、家电等全部物品，导致直接经济损失达数万元。白中会从洛阳赶回家后，就房屋被拆一事与被控告人理论，被控告人指使护矿队人员用车堵截路口、打砸白中会车辆并将白中会拉下车限制其行动，并以"敢报警就弄死你"等言语进行生命威胁，导致白中会因极度恐惧诱发疾病，至今半身不遂、生活不能自理。</li>
+                </ol>
+                <p>自2008年开始，郜崃岚、毛建军为首的黑社会性质犯罪组织多次对不满其行为的群众进行殴打，曾打伤数人，造成多人轻伤或轻微伤，严重侵犯了公民的身体健康权。被控告人长期以暴力手段实施强占土地、殴打群众、损毁财物等行为，导致当地群众对郜崃岚团伙产生恐惧心理，敢怒不敢言，严重破坏了正常的生产生活秩序。</p>
+            </div>
+
+            <div class="crime-details">
+                <h3>四、故意毁坏财物罪</h3>
+                <p>以郜崃岚、毛建军为首的黑社会性质犯罪组织多次实施故意毁坏他人财物的行为。</p>
+                <p>2013年10月，在非法占用武焕如耕地并殴打其及朋友黄涛后，被控告人指使护矿队人员的一系列暴力行为对现场的一些财物造成了损坏。</p>
+                <p>2014年12月，在白中会家房屋被扒过程中，被控告人指使护矿队人员强行砸毁白中会的车辆，给白中会造成了直接的财产损失。</p>
+                <p>此外，自2008年以来，郜崃岚、毛建军纠集的护矿队还烧毁车辆数台，严重侵犯了公民的财产所有权。其行为已触犯《刑法》第二百七十五条规定的故意毁坏财物，构成故意毁坏财物罪。</p>
+            </div>
+
+            <div class="crime-details">
+                <h3>综合结论</h3>
+                <p>以郜崃岚、毛建军为首的黑社会性质犯罪组织，以暴力、威胁手段，有组织的长期实施非法占用农用地、非法采矿、故意伤害、寻衅滋事、故意毁坏财物等违法犯罪行为，为非作恶，欺压、残害群众，利用国家工作人员的包庇、纵容，严重侵害了国家资源和公民的合法权益，扰乱了社会治安和经济秩序，其行为已构成黑社会性质组织罪。</p>
+                <p style="color: var(--primary-color); font-weight: bold;">据不完全统计，当地公安机关已立案受理的控告以郜崃岚、毛建军为首的黑社会性质犯罪组织案件达50多起，但至今未对郜崃岚、毛建军为首的黑社会性质犯罪组织追究刑事责任。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title" data-lang="timeline-title">犯罪时间线</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2008年</div>
+                        <h3 data-lang="timeline-2008-title">犯罪组织成立</h3>
+                        <p data-lang="timeline-2008-desc">郜崃岚、毛建军在汝州市汝南工业区虎头村西南注册汝州中鑫金华矿业有限公司，在汝州市焦村镇安沟村、煤窑湾村、茶亭村境内办理铝矿石探矿证，但未办理采矿许可证。开始组建"护矿队"，实施黑社会性质犯罪活动。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2008-2015年</div>
+                        <h3 data-lang="timeline-2008-2015-title">大规模非法占地</h3>
+                        <p data-lang="timeline-2008-2015-desc">强行占用汝州市焦村镇安沟村、煤窑湾村、茶亭村农用地共100余亩，其中基本农田77.5亩，占用其他耕地20余亩，造成土地永久毁坏。同时擅自开挖铝矿石80万吨，价值达4亿元。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2012年3月</div>
+                        <h3 data-lang="timeline-2012-3-title">暴力伤人事件</h3>
+                        <p data-lang="timeline-2012-3-desc">郜崃岚带领20余人手持棍棒在蟒川镇铁志生态园殴打何广军等人，导致何广军手部骨折构成轻伤，其他几名同事均受轻微伤。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2012年11月19日</div>
+                        <h3 data-lang="timeline-2012-11-title">大规模群体暴力</h3>
+                        <p data-lang="timeline-2012-11-desc">组织200多人手持刀具、棍棒在焦村镇茶亭村对村民实施殴打，导致武延辉、段改红、武各子等多人轻伤，焦荣、武彦利、武大记等多人住院治疗。事后威胁控告人，称"省里有人，要打死控告人"。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2013年10月</div>
+                        <h3 data-lang="timeline-2013-title">强占耕地伤人</h3>
+                        <p data-lang="timeline-2013-desc">指使20余名护矿队人员强行进入武焕如耕地进行开挖，殴打阻止者，导致黄涛耳膜穿孔构成轻伤，武焕如本人多处受伤。当晚又带人砸门砸窗，强行进院殴打武焕如。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2014年12月</div>
+                        <h3 data-lang="timeline-2014-title">强拆民宅威胁村民</h3>
+                        <p data-lang="timeline-2014-desc">组织15名护矿队人员强行拆除白中会住宅，将其80多岁老母亲强行抬至院外，砸毁室内全部物品。威胁白中会生命安全，导致白中会因恐惧致半身不遂，生活不能自理。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Evidence Section -->
+    <section class="evidence-section">
+        <div class="container">
+            <h2 class="section-title" data-lang="evidence-title">铁证如山</h2>
+            
+            <h3 class="text-center mb-4" data-lang="scene-evidence">现场证据：耕地被非法占用形成深坑</h3>
+            <div class="evidence-grid">
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/12cc14c7056370d710b8db1b520c49de.jpg" alt="现场图片1" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="scene-caption-1">耕地被非法开挖形成的巨大深坑</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/15dbb1885439e3436ad758ba070b9c9a.jpg" alt="现场图片2" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="scene-caption-2">被破坏的农田现状</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/18c9818803cca83b2adaea831c95e74a.jpg" alt="现场图片3" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="scene-caption-3">大面积耕地被毁坏</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/1b2a9a0a177d04f681992a3af3134e71.jpg" alt="现场图片4" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">非法开采现场破坏情况</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/2e5a3b7e8283a5c4bf3530d96f3e9cd3.jpg" alt="现场图片5" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">耕地被挖掘后的深坑</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/2efe041f214a009aa69a6be0e95c3653.jpg" alt="现场图片6" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">农田被严重破坏的现状</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/2ff713b55f5f53620d93f2f0dcfb5dc5.jpg" alt="现场图片7" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">非法占用耕地证据</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/37af632501bb8b60fc446e60deace5a6.jpg" alt="现场图片8" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">土地被挖掘破坏现场</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/47b121cf4cd6e72e9895a55ad8ecefae.jpg" alt="现场图片9" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">耕地被非法开采现状</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/564a8e77f40de59322b3be9761e4e147.jpg" alt="现场图片10" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">农田被毁坏的深坑</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/60f1f563dfe729e8118221d11826f539.jpg" alt="现场图片11" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">非法占用农田证据</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/711c684cd00e8e2847827ebacad78dca.jpg" alt="现场图片12" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">耕地被破坏现场</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/75cc72490107aa6d21598a6dda0c293f.jpg" alt="现场图片13" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">农田被挖掘的深坑现状</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/7e37ced3edb5ccab6cf1f5f7a1fa33e8.jpg" alt="现场图片14" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">非法开采造成的土地破坏</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/8e07d51e8e9475c817b78297eea3ae2b.jpg" alt="现场图片15" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">耕地被非法占用现场</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/8ff466ec3bf3d2d708c1606454629b8c.jpg" alt="现场图片16" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">农田被破坏的现状</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/abcfde023b3466a59bcfdde687d5546d.jpg" alt="现场图片17" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">非法开采现场证据</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/c688f4c85580a2626603c2aeaf01345c.jpg" alt="现场图片18" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">耕地被挖掘破坏证据</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/e57ae41cb92a24831ebc34804c6d02ff.jpg" alt="现场图片19" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">农田被非法占用的现状</div>
+                </div>
+            </div>
+
+            <h3 class="text-center mb-4 mt-4">土地多年现状对比</h3>
+            <div class="evidence-grid">
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/td.png" alt="土地多年现状" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">土地多年被占用现状对比图</div>
+                </div>
+            </div>
+
+            <h3 class="text-center mb-4 mt-4">现场视频证据</h3>
+            <div class="evidence-grid">
+                <div class="evidence-item">
+                    <video controls class="evidence-video" crossorigin="anonymous">
+                        <source src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/videos/4.mp4" type="video/mp4">
+                        您的浏览器不支持视频播放。
+                    </video>
+                    <div class="evidence-caption" data-lang="video-caption-1">现场视频证据1：耕地被非法占用形成深坑</div>
+                </div>
+                <div class="evidence-item">
+                    <video controls class="evidence-video" crossorigin="anonymous">
+                        <source src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/videos/5.mp4" type="video/mp4">
+                        您的浏览器不支持视频播放。
+                    </video>
+                    <div class="evidence-caption">现场视频证据2：农田被破坏现状</div>
+                </div>
+                <div class="evidence-item">
+                    <video controls class="evidence-video" crossorigin="anonymous">
+                        <source src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/videos/6.mp4" type="video/mp4">
+                        您的浏览器不支持视频播放。
+                    </video>
+                    <div class="evidence-caption">现场视频证据3：非法开采现场</div>
+                </div>
+                <div class="evidence-item">
+                    <video controls class="evidence-video" crossorigin="anonymous">
+                        <source src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/videos/7.mp4" type="video/mp4">
+                        您的浏览器不支持视频播放。
+                    </video>
+                    <div class="evidence-caption">现场视频证据4：耕地被毁坏情况</div>
+                </div>
+            </div>
+
+            <h3 class="text-center mb-4 mt-4" data-lang="complaint-evidence">实名举报原件（含举报人手印）</h3>
+            <div class="evidence-grid">
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/kgz1.png" alt="控告状第1页" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="complaint-page-1">控告状第1页</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/kgz2png.png" alt="控告状第2页" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="complaint-page-2">控告状第2页</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/kgz3.png" alt="控告状第3页" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="complaint-page-3">控告状第3页</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/kgz4.png" alt="控告状第4页" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">控告状第4页</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/kgz5.png" alt="控告状第5页" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">控告状第5页</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/kgz6.png" alt="举报人签名手印" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="signatures">举报人签名及手印</div>
+                </div>
+            </div>
+
+            <h3 class="text-center mb-4 mt-4" data-lang="injury-evidence">伤人证据：诊断证明、医疗费用</h3>
+            <div class="evidence-grid">
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj1.png" alt="诊断证明1" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="medical-1">医疗诊断证明</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj2.png" alt="诊断证明2" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">医疗诊断证明2</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj3.png" alt="诊断证明3" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">医疗诊断证明3</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj4.png" alt="诊断证明4" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">医疗诊断证明4</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj5.png" alt="医疗费用" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="medical-cost">医疗费用清单</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj6.png" alt="医疗费用2" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">医疗费用清单2</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj7.png" alt="医疗费用3" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">医疗费用清单3</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj8.png" alt="伤情鉴定" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption" data-lang="injury-assessment">伤情鉴定报告</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj9.png" alt="伤情鉴定2" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">伤情鉴定报告2</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj10.png" alt="伤情鉴定3" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">伤情鉴定报告3</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj11.png" alt="医疗证明4" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">医疗证明4</div>
+                </div>
+                <div class="evidence-item">
+                    <img src="https://raw.githubusercontent.com/BostonFan01/ruzhou/refs/heads/main/data/images/zj12.png" alt="医疗证明5" class="evidence-image" onclick="openModal(this.src)" crossorigin="anonymous">
+                    <div class="evidence-caption">医疗证明5</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Complainants Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang="complainants-title">实名举报人</h2>
+            <div class="section-content">
+                <div class="complainants-grid">
+                    <div class="complainant-card">
+                        <h4>贾高杰</h4>
+                        <p data-lang="complainant-1">男，1968年1月15日生，汉族<br>住禹州市鸿畅镇贾湾村<br>身份证：41108119680115795X<br>电话：13592167859</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>白中会</h4>
+                        <p data-lang="complainant-2">男，1964年生，汉族<br>住汝州市焦村乡安沟村煤窑湾村<br>身份证：410482196443116738</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>武换茹</h4>
+                        <p data-lang="complainant-3">女，1970年7月22日生，汉族<br>住汝州市焦村乡安沟村煤窑湾村<br>身份证：410482197007229065</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>何广军</h4>
+                        <p data-lang="complainant-4">男，1978年5月18日生，汉族<br>住汝州市蟒川镇陈沟村<br>身份证：41048219780518501X</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>武延辉</h4>
+                        <p>男，1976年6月19日生，汉族<br>住汝州市米庙镇大刘庄村<br>身份证：410482197606197712</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>段改红</h4>
+                        <p>女，1976年12月27日生，汉族<br>住汝州市尚庄乡刘庄村<br>身份证：410482197612279044</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>武各子</h4>
+                        <p>男，1949年8月1日生，汉族<br>住汝州市尚庄乡刘庄村<br>身份证：41048219490801771X</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>焦荣</h4>
+                        <p>女，1950年3月24日生，汉族<br>住汝州市尚庄乡刘庄村<br>身份证：410482195003247726</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>武彦利</h4>
+                        <p>女，1974年2月13日生，汉族<br>住汝州市焦村乡邢村<br>身份证：410482197402137769</p>
+                    </div>
+                    <div class="complainant-card">
+                        <h4>武大记</h4>
+                        <p>男，1945年9月11日生，汉族<br>住汝州市尚庄乡刘庄村<br>身份证：410482194509117713</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title" data-lang="cta-title" style="color: white;">正义不会缺席</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 2rem; opacity: 0.9;" data-lang="cta-desc">
+                控告人作为受害者，恳请公安机关依法对被控告人的犯罪行为进行立案侦查，严格追究其刑事责任，以维护法律的尊严和社会的公平正义，还老百姓一个安全、和谐的生活环境。
+            </p>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;">
+                恳请自然资源部、公安部等相关部门彻查郜崃岚、毛建军为首的黑社会性质犯罪组织，
+                严厉打击其非法占用耕地、非法采矿、暴力伤人等违法犯罪行为，
+                打掉其保护伞，还汝州百姓一个安宁和谐的生活环境！
+            </p>
+            <div class="cta-buttons">
+                <button onclick="window.print()" class="cta-btn" data-lang="print-btn">
+                    🖨️ 打印举报材料
+                </button>
+                <button onclick="shareContent()" class="cta-btn secondary" data-lang="share-btn">
+                    📢 分享举报信息
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-lang="footer-text">本举报材料基于真实事件，所有证据均为实物拍摄。举报人愿承担法律责任。</p>
+            <p style="margin-top: 1rem; opacity: 0.7;" data-lang="footer-date">举报时间：2025年4月12日</p>
+            <p style="margin-top: 1rem; opacity: 0.7;">附相关证据：非法开采现状照片；多人诊断证明、医疗费用清单等。</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="/placeholder.svg" alt="证据图片">
+        </div>
+    </div>
+
+    <script>
+        // Language translations
+        const translations = {
+            'zh-CN': {
+                'title': '实名举报：郜崃岚、毛建军黑社会性质犯罪组织',
+                'subtitle': '多名村民联合实名举报 • 铁证如山 • 绳之以法',
+                'alert': '🚨 紧急举报：郜崃岚、毛建军为首的黑社会性质犯罪组织非法占用近百亩耕地，实施暴力犯罪，严重危害社会！',
+                'ministry-title': '致自然资源部的举报信',
+                'suspects-title': '主要犯罪嫌疑人',
+                'gao-alias': '又名：郜小强 | 住址：焦作市山阳区',
+                'mao-alias': '汝州中鑫金华矿业有限公司法定代表人',
+                'crimes-title': '主要罪行：',
+                'crime-1': '非法占用农用地罪',
+                'crime-2': '非法采矿罪',
+                'crime-3': '组织黑社会性质组织罪',
+                'crime-4': '故意伤害罪',
+                'crime-5': '寻衅滋事罪',
+                'crime-6': '故意毁坏财物罪',
+                'crime-7': '非法侵入住宅罪',
+                'timeline-title': '犯罪时间线',
+                'timeline-2008-title': '犯罪组织成立',
+                'timeline-2008-desc': '郜崃岚、毛建军在汝州市汝南工业区虎头村西南注册汝州中鑫金华矿业有限公司，在汝州市焦村镇安沟村、煤窑湾村、茶亭村境内办理铝矿石探矿证，但未办理采矿许可证。开始组建"护矿队"，实施黑社会性质犯罪活动。',
+                'timeline-2008-2015-title': '大规模非法占地',
+                'timeline-2008-2015-desc': '强行占用汝州市焦村镇安沟村、煤窑湾村、茶亭村农用地共100余亩，其中基本农田77.5亩，占用其他耕地20余亩，造成土地永久毁坏。同时擅自开挖铝矿石80万吨，价值达4亿元。',
+                'timeline-2012-3-title': '暴力伤人事件',
+                'timeline-2012-3-desc': '郜崃岚带领20余人手持棍棒在蟒川镇铁志生态园殴打何广军等人，导致何广军手部骨折构成轻伤，其他几名同事均受轻微伤。',
+                'timeline-2012-11-title': '大规模群体暴力',
+                'timeline-2012-11-desc': '组织200多人手持刀具、棍棒在焦村镇茶亭村对村民实施殴打，导致武延辉、段改红、武各子等多人轻伤，焦荣、武彦利、武大记等多人住院治疗。事后威胁控告人，称"省里有人，要打死控告人"。',
+                'timeline-2013-title': '强占耕地伤人',
+                'timeline-2013-desc': '指使20余名护矿队人员强行进入武焕如耕地进行开挖，殴打阻止者，导致黄涛耳膜穿孔构成轻伤，武焕如本人多处受伤。当晚又带人砸门砸窗，强行进院殴打武焕如。',
+                'timeline-2014-title': '强拆民宅威胁村民',
+                'timeline-2014-desc': '组织15名护矿队人员强行拆除白中会住宅，将其80多岁老母亲强行抬至院外，砸毁室内全部物品。威胁白中会生命安全，导致白中会因恐惧致半身不遂，生活不能自理。',
+                'evidence-title': '铁证如山',
+                'scene-evidence': '现场证据：耕地被非法占用形成深坑',
+                'scene-caption-1': '耕地被非法开挖形成的巨大深坑',
+                'scene-caption-2': '被破坏的农田现状',
+                'scene-caption-3': '大面积耕地被毁坏',
+                'video-caption-1': '现场视频证据1：耕地被非法占用形成深坑',
+                'complaint-evidence': '实名举报原件（含举报人手印）',
+                'complaint-page-1': '控告状第1页',
+                'complaint-page-2': '控告状第2页',
+                'complaint-page-3': '控告状第3页',
+                'signatures': '举报人签名及手印',
+                'injury-evidence': '伤人证据：诊断证明、医疗费用',
+                'medical-1': '医疗诊断证明',
+                'medical-cost': '医疗费用清单',
+                'injury-assessment': '伤情鉴定报告',
+                'complainants-title': '实名举报人',
+                'complainant-1': '男，1968年1月15日生，汉族<br>住禹州市鸿畅镇贾湾村<br>身份证：41108119680115795X<br>电话：13592167859',
+                'complainant-2': '男，1964年生，汉族<br>住汝州市焦村乡安沟村煤窑湾村<br>身份证：410482196443116738',
+                'complainant-3': '女，1970年7月22日生，汉族<br>住汝州市焦村乡安沟村煤窑湾村<br>身份证：410482197007229065',
+                'complainant-4': '男，1978年5月18日生，汉族<br>住汝州市蟒川镇陈沟村<br>身份证：41048219780518501X',
+                'cta-title': '正义不会缺席',
+                'cta-desc': '控告人作为受害者，恳请公安机关依法对被控告人的犯罪行为进行立案侦查，严格追究其刑事责任，以维护法律的尊严和社会的公平正义，还老百姓一个安全、和谐的生活环境。',
+                'print-btn': '🖨️ 打印举报材料',
+                'share-btn': '📢 分享举报信息',
+                'footer-text': '本举报材料基于真实事件，所有证据均为实物拍摄。举报人愿承担法律责任。',
+                'footer-date': '举报时间：2025年4月12日'
+            },
+            'zh-TW': {
+                'title': '實名舉報：郜崃嵐、毛建軍黑社會性質犯罪組織',
+                'subtitle': '多名村民聯合實名舉報 • 鐵證如山 • 繩之以法',
+                'alert': '🚨 緊急舉報：郜崃嵐、毛建軍為首的黑社會性質犯罪組織非法佔用近百畝耕地，實施暴力犯罪，嚴重危害社會！',
+                'ministry-title': '致自然資源部的舉報信',
+                'suspects-title': '主要犯罪嫌疑人',
+                'crimes-title': '主要罪行：',
+                'timeline-title': '犯罪時間線',
+                'evidence-title': '鐵證如山',
+                'complainants-title': '實名舉報人',
+                'cta-title': '正義不會缺席',
+                'print-btn': '🖨️ 打印舉報材料',
+                'share-btn': '📢 分享舉報信息',
+                'footer-text': '本舉報材料基於真實事件，所有證據均為實物拍攝。舉報人願承擔法律責任。',
+                'footer-date': '舉報時間：2025年4月12日'
+            },
+            'en': {
+                'title': 'Real-name Report: Gao Lailan & Mao Jianjun Criminal Organization',
+                'subtitle': 'Multiple villagers jointly report • Solid evidence • Justice will prevail',
+                'alert': '🚨 URGENT REPORT: Criminal organization led by Gao Lailan and Mao Jianjun illegally occupied nearly 100 acres of farmland and committed violent crimes!',
+                'ministry-title': 'Letter to Ministry of Natural Resources',
+                'suspects-title': 'Main Criminal Suspects',
+                'crimes-title': 'Main Crimes:',
+                'timeline-title': 'Crime Timeline',
+                'evidence-title': 'Solid Evidence',
+                'complainants-title': 'Real-name Complainants',
+                'cta-title': 'Justice Will Not Be Absent',
+                'print-btn': '🖨️ Print Report Materials',
+                'share-btn': '📢 Share Report Information',
+                'footer-text': 'This report is based on real events. All evidence is photographed from actual materials. Complainants are willing to bear legal responsibility.',
+                'footer-date': 'Report Date: April 12, 2025'
+            }
+        };
+
+        // Theme toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            body.setAttribute('data-theme', newTheme);
+            themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', newTheme);
+        });
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', savedTheme);
+        themeToggle.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+
+        // Language switching
+        const languageSelect = document.getElementById('languageSelect');
+        
+        function updateLanguage(lang) {
+            const elements = document.querySelectorAll('[data-lang]');
+            elements.forEach(element => {
+                const key = element.getAttribute('data-lang');
+                if (translations[lang] && translations[lang][key]) {
+                    if (element.innerHTML.includes('<br>')) {
+                        element.innerHTML = translations[lang][key];
+                    } else {
+                        element.textContent = translations[lang][key];
+                    }
+                }
+            });
+            document.documentElement.lang = lang;
+            localStorage.setItem('language', lang);
+        }
+
+        languageSelect.addEventListener('change', (e) => {
+            updateLanguage(e.target.value);
+        });
+
+        // Load saved language
+        const savedLanguage = localStorage.getItem('language') || 'zh-CN';
+        languageSelect.value = savedLanguage;
+        updateLanguage(savedLanguage);
+
+        // Modal functions
+        function openModal(src) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'flex';
+            modalImg.src = src;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        // Share function
+        function shareContent() {
+            if (navigator.share) {
+                navigator.share({
+                    title: '实名举报：郜崃岚、毛建军黑社会性质犯罪组织',
+                    text: '多名村民联合实名举报郜崃岚、毛建军为首的黑社会性质犯罪组织',
+                    url: window.location.href
+                });
+            } else {
+                // Fallback for browsers that don't support Web Share API
+                const url = window.location.href;
+                navigator.clipboard.writeText(url).then(() => {
+                    alert('链接已复制到剪贴板');
+                }).catch(() => {
+                    // Fallback if clipboard API is not available
+                    const textArea = document.createElement('textarea');
+                    textArea.value = url;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    alert('链接已复制到剪贴板');
+                });
+            }
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add some interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add click effect to evidence images
+            const evidenceImages = document.querySelectorAll('.evidence-image');
+            evidenceImages.forEach(img => {
+                img.addEventListener('click', function() {
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = 'scale(1)';
+                    }, 150);
+                });
+            });
+
+            // Add hover effect to timeline items
+            const timelineItems = document.querySelectorAll('.timeline-content');
+            timelineItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.borderColor = 'var(--primary-color)';
+                });
+                item.addEventListener('mouseleave', function() {
+                    this.style.borderColor = 'var(--border-color)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
